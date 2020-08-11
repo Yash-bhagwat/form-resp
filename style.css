@@ -97,3 +97,14 @@ input:focus {
     line-height: 3rem;
   }
 }
+
+.form_error {
+  display: none;
+  margin-top: 0.3rem;
+  box-sizing: border-box;
+  width: 85%;
+  text-align: end;
+  color: red;
+  font-size: 0.7rem;
+  font-weight: 500;
+}

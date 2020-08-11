@@ -36,9 +36,13 @@
       <div class="form-element">
         <form id="form" novalidate>
           <input id="firstName" name="name" type="text" placeholder="First Name" required>
+          <div class="form_error"><em>First Name cannot be empty</em></div>
           <input id="lastName" name="lastName" type="text" placeholder="Last Name" required>
+          <div class="form_error"><em>Last Name cannot be empty</em></div>
           <input id="email" name="email" type="email" placeholder="Email Address" required>
+          <div class="form_error"><em>Looks like this is not an email</em></div>
           <input id="password" name="password" type="password" placeholder="Password" required>
+          <div class="form_error"><em>Password cannot be empty</em></div>
           <input id="formSubmit" class="btn-submit" name="submit" type="submit" value="Claim your free trial">
           <p class="terms">By clicking the button, you are agreeing to our <span class="tas">Terms and Services</span></p>
       </div>
@@ -57,6 +61,7 @@
       .
     </p>
   </footer>
+  <script src="app.js"></script>
 </body>
 
 </html>
