@@ -100,11 +100,10 @@ input:focus {
 
 .form_error {
   display: none;
-  margin-top: 0.3rem;
+  margin-top: 0.2rem;
   box-sizing: border-box;
-  width: 85%;
+  width: 70%;
   text-align: end;
-  color: red;
-  font-size: 0.7rem;
-  font-weight: 500;
+  color: orangered;
+  font-size: 0.6rem;
 }
